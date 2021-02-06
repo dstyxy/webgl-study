@@ -1,0 +1,23 @@
+{
+  "name": "webgl-study",
+  "version": "1.0.0",
+  "description": "webgl学习项目",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dstyxy/webgl-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dstyxy/webgl-study/issues"
+  },
+  "homepage": "https://github.com/dstyxy/webgl-study#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "stylus": "^0.54.8"
+  }
+}
