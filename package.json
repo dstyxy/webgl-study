@@ -1,23 +1,17 @@
 {
-  "name": "webgl-study",
-  "version": "1.0.0",
-  "description": "webgl学习项目",
-  "main": "index.js",
+  "name": "webgl-study0",
+  "version": "0.0.0",
   "scripts": {
-    "dev": "parcel public/index.html"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dstyxy/webgl-study.git"
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dstyxy/webgl-study/issues"
-  },
-  "homepage": "https://github.com/dstyxy/webgl-study#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
-    "stylus": "^0.54.8"
+    "@vitejs/plugin-react-refresh": "^1.1.0",
+    "vite": "^2.0.1"
   }
 }
